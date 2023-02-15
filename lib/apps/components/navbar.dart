@@ -10,22 +10,37 @@ class KNavbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
+        
         Text(
-          'About',
+          'Experience',
           style: KTextStyle.title3.copyWith(
             color: KColor.white.withOpacity(0.7),
           ),
         ),
-        SizedBox(width: context.screenWidth * 0.1),
+        SizedBox(width: context.screenWidth * 0.03),
+        Text(
+          'Portfolio',
+          style: KTextStyle.title3.copyWith(
+            color: KColor.white.withOpacity(0.7),
+          ),
+        ),
+        SizedBox(width: context.screenWidth * 0.03),
+        Text(
+          'Skills',
+          style: KTextStyle.title3.copyWith(
+            color: KColor.white.withOpacity(0.7),
+          ),
+        ),
+        SizedBox(width: context.screenWidth * 0.03),
         Text(
           'Education',
           style: KTextStyle.title3.copyWith(
             color: KColor.white.withOpacity(0.7),
           ),
         ),
-        SizedBox(width: context.screenWidth * 0.1),
+        SizedBox(width: context.screenWidth * 0.03),
         Text(
-          'Portfolio',
+          'About',
           style: KTextStyle.title3.copyWith(
             color: KColor.white.withOpacity(0.7),
           ),

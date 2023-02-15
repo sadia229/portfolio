@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 class KTextStyle {
   static TextStyle headline1 = TextStyle(
     fontSize: 25,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w400,
     fontFamily: GoogleFonts.inter().fontFamily,
   );
   static TextStyle headline2 = TextStyle(
