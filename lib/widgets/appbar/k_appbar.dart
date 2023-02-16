@@ -17,19 +17,13 @@ class KAppBar extends StatelessWidget {
       elevation: 0,
       centerTitle: true,
       title: SizedBox(
-        width: 1150,
+        width: context.screenWidth * 0.5,
         child: Center(
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(AssetPath.logo, height: 30),
               const KNavbar(),
-              KButton(
-                btnColor: KColor.peach,
-                textColor: KColor.deepPeach,
-                width: context.screenWidth * 0.15,
-                btnText: 'Contact',
-              ),
             ],
           ),
         ),

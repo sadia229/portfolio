@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class KColor {
+  static Color primary = Color.fromARGB(255, 0, 0, 32);
+  static Color secondary = Color.fromARGB(255, 0, 0, 26);
+  static Color deepSecondary = Color.fromARGB(255, 0, 0, 50);
   static Color background = const Color(0xFF262626);
   static Color peach = const Color(0xFFff9899);
   static Color deepPeach = Color.fromARGB(255, 254, 83, 85);
